@@ -1,0 +1,13 @@
+﻿@using TPP3.Models
+@model  TPP3.Models.Produit
+@{
+    ViewBag.Title = "DisplayOneproduct";
+    var produit = ViewBag.P;
+}
+
+<h2>DisplayOneproduct</h2>
+<div>
+    <P> Nom:@produit.Name</P>
+    <p>ID: @produit.Id</p>
+    <p>Prix: @produit.Prix </p >
+</div>
